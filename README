@@ -118,6 +118,6 @@ pr_threshold = 0.75
 number of epoches = 9
 optimizer = adam with 0.0001 learning rate 
 
-I also added 2 dropout layers in the model to prevent overfitting.
+I also added 2 dropout layers with 0.5 dropout rate in first 2 fully-connected layers to prevent overfitting.
 
 
