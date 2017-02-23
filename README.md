@@ -6,7 +6,7 @@ The goal of this project to use convolutional neural networks to clone driving b
 ## Summary
 I used image data and steering angles collected in the simulator to train a neural network and then use this model to drive the car autonomously around the track. check _model.py_ for the code.
 
-The project repo from Udacity can be found here
+The project repo from Udacity can be found [here](https://github.com/udacity/CarND-Behavioral-Cloning-P3)
 
 ## The Model
 Nvidia published an [end-to-end Convolutional Neural Networks](https://devblogs.nvidia.com/parallelforall/deep-learning-self-driving-cars/) to process visual data. I applied the archetecture of the Nvidia network in this project. 
