@@ -28,11 +28,11 @@ Instead of storing the training data in memory, I used the generator to generate
 6. randomly fliping the image, and adjusting the steerings accordingly
 7. in the training data generator, data with too small steerings are less likely to be chosen, otherwise the model would tend to make the car go straight
 
-after hours of fine-tuning, the following parameters generated the best results:
-batch_size = 256
-pr_threshold = 0.75
-number of epoches = 9
-optimizer = adam with 0.0001 learning rate 
+After hours of fine-tuning, the following parameters generated the best results:
+* batch_size = 256
+* pr_threshold = 0.75
+* number of epoches = 9
+* optimizer = adam with 0.0001 learning rate 
 
 I also added 2 dropout layers with 0.5 dropout rate in first 2 fully-connected layers to prevent overfitting.
 
