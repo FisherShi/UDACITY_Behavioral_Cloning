@@ -19,6 +19,7 @@ Nvidia published an [end-to-end Convolutional Neural Networks](https://devblogs.
 ![alt text][image2]
 
 Instead of storing the training data in memory, I used the generator to generate training set and validation set. I did the following preprocessing and data augmentation in the generator:
+
 1. cut the top 35 lines to eliminate trees & sky, and bottom 20 lines for the hood
 2. resize the images to (66,200) to fit the Nvidia model
 3. switch to YUV space to fit the Nvidia model
